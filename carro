@@ -1,0 +1,11 @@
+public class carro {
+	    public static void main(String[] args) {
+
+	        double quilometrosRodados = 290;
+	        double litrosConsumidos = 24.51;
+
+	        double consumoKmPorLitro = quilometrosRodados / litrosConsumidos;
+
+	        System.out.println("O consumo do carro é de " + consumoKmPorLitro + " km por litro.");
+	    }
+	}
